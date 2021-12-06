@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animi-Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <img src="./images/batman1.svg" alt="">
+            <h1>ANIMI - FORMS</h1>
+            <img src="./images/batman1.svg" alt="">
+        </div>
+    </header>
+    <form action="" name="myForm" method="post" onsubmit="return validateForm()">
+        <section>
+            <div class="details">
+                    <label for="name">ANIMI-Name</label>
+                    <input id="anime-name" type="text" name="ani-name">
+                    <label for="name">ANIMI-(ORIGIN-COUNTRY))</label>
+                    <select  name="country">
+                        <option type="hidden"></option>
+                        <option value="Japan">Japan</option>
+                        <option value="USA">USE</option>
+                        <option value="Arab">Arab</option>
+                        <option value="England">England</option>
+                    </select>
+                    <label for="name">No.of.Episodes</label>
+                    <input id="episode" type="text" name="epi-sode">
+                    <label for="name">YOUR RATINGS</label>
+                    <input id="ratings" type="text" name="ratings">
+                    <label for="name">AWARDS</label>
+                    <input id="awards" type="text" name="awards">
+            </div>
+            <div class="description">
+                <label for="name">DESCRIPTION ABOUT THE ANIMI</label>
+                <input id="description" type="text" name="name">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </section>
+    </form>
+</body>
+</html>
