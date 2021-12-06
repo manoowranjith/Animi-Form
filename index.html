@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animi-Form</title>
+    <title>Scoreboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <form action="" name="myForm" method="post" onsubmit="return validateForm()">
         <section>
             <div class="details">
-                    <label for="name">ANIMI-Name</label>
+                    <label for="name">ANIMI-Name <span id="message_name"></span></label>
                     <input id="anime-name" type="text" name="ani-name">
                     <label for="name">ANIMI-(ORIGIN-COUNTRY))</label>
                     <select  name="country">
@@ -32,7 +32,7 @@
                         <option value="Arab">Arab</option>
                         <option value="England">England</option>
                     </select>
-                    <label for="name">No.of.Episodes</label>
+                    <label for="name">No.of.Episodes</label> <span id="message_episode"></span>
                     <input id="episode" type="text" name="epi-sode">
                     <label for="name">YOUR RATINGS</label>
                     <input id="ratings" type="text" name="ratings">
@@ -42,7 +42,7 @@
             <div class="description">
                 <label for="name">DESCRIPTION ABOUT THE ANIMI</label>
                 <input id="description" type="text" name="name">
-                <button type="submit">SUBMIT</button>
+                <button id="btn" type="submit">SUBMIT</button>
             </div>
         </section>
     </form>

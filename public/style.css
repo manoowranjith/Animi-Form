@@ -28,6 +28,11 @@ label
 {
     color: white;
 }
+span{
+    color: red;
+    font-size: 10px;
+    margin-left: 10px;
+}
 input, select {
     width: 75%;
     box-sizing: border-box;
@@ -57,7 +62,7 @@ section
     padding: 0px 10vw;
 }
 button{
-   margin: 25px 0px 0px 5vw;
+   margin: 25px 0px 0px 0px;
    padding:15px 45px;
    border-radius: 10px;
    color: white;
